@@ -1,0 +1,176 @@
+body{
+	margin: 0px auto;
+	background-image: url('background.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+nav {
+	text-align: center;
+}
+nav ul {
+	margin: 0 auto;
+	list-style-type: none;
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px 10px;
+	max-width: 900px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+nav ul li {
+	display: inline-block;
+		transition: 0.5s;
+}
+nav ul li a {
+	padding: 10px 10px;
+	letter-spacing: 5px;
+}
+nav ul li:hover {
+		transform: scale(1.20);
+		transition: 0.2s;
+		letter-spacing: 2px;
+}
+nav ul li a:any-link {
+	color: white;
+	text-decoration: none;
+}
+ul li{
+	list-style-type: none;
+	position: relative;
+	display: inline-block;
+}
+h1{
+	text-align: center;
+	margin-top: 200px;
+	font-size: 50px;
+}
+.prvi{
+	color: white;
+}
+.logo{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 400px;
+}
+.animacija {
+	display: block;
+	margin: 0 auto;
+	animation: logoanimacija 4s 1;
+}
+@keyframes logoanimacija {
+	0% {
+		margin-top: 1000px;
+		opacity: 1;
+	}
+	50% {
+		margin-top: 0px;
+		opacity: 1;
+	}
+	100% {
+		margin-top: 0px;
+		opacity: 1;
+	}
+}
+div{
+	background-color: rgb(255,255,255,0.2);
+	padding: 5px;
+	text-align: center;
+	margin-top: 100px;
+}
+footer{
+	position: relative;
+	bottom: 5px;
+	display: block;
+	text-align: center;
+}
+h2{
+	margin-top: 40px;
+}
+h3{
+	margin-top: 50px;
+}
+fieldset{
+	text-align: center;
+	background-color: rgb(255,255,255,0.3);
+	border: none;
+	width: 30%;
+	height: 30%;
+	margin: 0 auto;
+}
+input{
+	width: 195px;
+	height: 30px;
+}
+select{
+	width: 200px;
+	height: 30px;
+}
+.test{
+	margin-top: 20px;
+}
+#citat1{
+	background-color: rgb(0,0,0,0.9);
+	border: none;
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#citat2{
+	background-color: rgb(0,0,0,0.9);
+	border: none;
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#citat3{
+	background-color: rgb(0,0,0,0.9);
+	border: none;
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+}
+.slikacitata1{
+	margin: 0 auto;
+}
+.slikacitata2{
+	margin: 0 auto;
+}
+.slikacitata3{
+	margin: 0 auto;
+}
+.informacije p{
+	margin-top: 30px;
+}
+.prvi {
+	width: 95%;
+	margin: 0px auto;
+	padding: 0px;
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	max-height: 400px;
+}
+@media screen and (max-width: 600px){
+nav ul li {
+		display: block;
+}
+input[type=submit],[type=reset]{
+	display: block;
+	margin-bottom: 5px;
+}
+}
+
+#showMore{
+	display: none;
+}
+#showMoreBtn{
+	display: inline-block;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+}

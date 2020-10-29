@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poslovi</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="pocetna.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="pocetna.html">Početna</a></li>
+			<li><a href="poslovi.html">Poslovi</a></li>
+			<li><a href="o_nama.html">O Nama</a></li>
+			<li><a href="kontakt.html">Kontakt</a></li>
+		</ul>
+	</nav>
+	</div>
+	<div>
+	<h2>Ukoliko mislite da imate ono što je potrebno.Pridružite nam se na putu!</h2>
+	<div class="test">
+	<h3>ZA CIM SMO U POTRAZI?</h3>
+	<p>U potrazi smo za perspektivnim ljudima koji dele viziju sa nama i veruju da mogu da naprave promenu u svetu.</p>
+	<p>Potrebni su nam idealni timski igraci.Da bi neko bio idealan timski igrac,smatramo da je potrebno da ima 3 veoma bitne osobine.</p>
+	</div>
+		<ul>
+		<div id="citat1">
+			<li><h2 id="skromnost" onmouseover="skromnost()" onmouseout="skromnost_out()">Skromnost</h2></li>
+			<div class="slikacitata1" style="width:200px;">
+    <img src="lao.jpg" style="width:100%" id="grayScale">
+    <div class="opiscitata1">
+      <h4><b>- LAO TZU</b></h4>
+      <p>"Da bi bio lider i vodio ljude,hodaj iza njih."</p>
+    </div>
+  	</div>
+		</div>
+		<div id="citat2">
+			<li><h2 id="komunikacija" onmouseover="komunikacija()" onmouseout="komunikacija_out()" >Komunikacija</h2></li>
+			<div class="slikacitata2" style="width:200px">
+    <img src="humes.jpg" style="width:100%" id="Blur">
+    <div class="opiscitata2">
+      <h4><b>- JAMES HUMES</b></h4>
+      <p>"Umetnost komunikacije je jezik vodjstva."</p>
+    </div>
+ 	</div>
+		</div>
+		<div id="citat3">
+			<li><h2 id="strast" onmouseover="strast()" onmouseout="strast_out()">Strast</h2></li>
+			<div class="slikacitata3" style="width:200px">
+    <img src="jen.jpg" style="width:100%" id="Opacity">
+    <div class="opiscitata3">
+      <h4><b>- JEN WELTER</b></h4>
+      <p>"Ako želite da postanete uspesni u ovom svetu,morate da pratite Vašu strast,ne Vašu platu."</p>
+    </div>
+  	</div>
+		</div>
+		</ul>
+	<h3>STA VAM MI NUDIMO?</h3>
+	<p>Mi Vam nudimo stalno usavrsavanje na svim aspektima vasih licnosti.Nudimo za Vas ambijent u kojem ce te se osecati kao kod kuce.</p>
+	</div>
+	<form>
+		<fieldset>
+			Ime<br>
+			<input type="text" onfocus="this.value=''" placeholder="Molimo Vas unesite Vase ime" id="name">
+			<br>
+			Prezime<br>
+			<input type="text" onfocus="this.value=''" placeholder="Molimo Vas unesite Vase prezime" id="lastname">
+			<br>
+			E-mail<br>
+			<input type="e-mail" onfocus="this.value=''" placeholder="Molimo Vas unesite Vas e-mail" id="email">
+			<br>
+			Kako se saznali za poslove u DigiCorp-u?
+			<br>
+			<select>
+				<option value="default">Odaberite opciju</option>
+				<option>Putem nasih reklama</option>
+				<option>Putem prijatelja</option>
+				<option>Preko eventa</option>
+				<option>Putem oglasa za posao</option>
+			</select>
+			<br>
+			Pozicija u koju ste zainteresovani?
+			<br>
+			<select>
+				<option value="default">Odaberite opciju</option>
+				<option>C# programer</option>
+				<option>Java programer</option>
+				<option>C++ programer</option>
+				<option>Python programer</option>
+				<option>PHP programer</option>
+				<option>JavaScript programer</option>
+				<option>Tester</option>
+				<option>Sistem administrator</option>
+				<option>Serviser</option>
+				<option>Projekt Menadzer</option>
+			</select>
+			<br>
+			<br>
+			<input type="submit" id="salji" value="Posalji" onclick="potvrdi()">
+			<input type="reset" value="Ponisti">
+		</fieldset>
+	</form>
+	<br>
+	<footer>© 2020 DIGICORP.ALL RIGHTS RESERVED.</footer>
+	<script src="javas.js"></script>
+</body>
+</html>
